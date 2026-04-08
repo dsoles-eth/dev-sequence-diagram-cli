@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "dev-sequence-diagram-cli"
+version = "0.1.0"
+description = "Command-line tool to automatically generate sequence diagrams from Python code comments and imports for better documentation."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["python", "click", "ast", "graphviz", "svg"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/{GITHUB_USERNAME}/dev-sequence-diagram-cli"
